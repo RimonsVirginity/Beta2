@@ -1,0 +1,41 @@
+name: Beta2
+version: '${project.version}'
+main: me.rimon.ABCD
+api-version: 1.18
+authors: [ rimon ]
+description: Replacement of essentials
+website: no
+commands:
+  Fly:
+    Description: Allows players to toggle fly
+  Creative:
+    Description: Allows players to enter creatvie mode
+    aliases:
+      - gmc
+  Survival:
+    Description: Allows players to enter survival mode
+    aliases:
+      - gms
+  Spectator:
+    Description: Allows players to enter spectator mode
+    aliases:
+      - gmsp
+  Adventure:
+    Description: Allows players to enter adventure mode
+    aliases:
+      - gma
+  Godmode:
+    Description: Allows players to to enter GodMode mode
+    aliases:
+      - god
+      - g
+  Smite:
+    Description: Summons lightning on a player
+  Tpa:
+    description: sends a request to a person
+  Tpdeny:
+    description: denies a tp request
+  Tpaccept:
+    description: Accepts a tp request
+
+
